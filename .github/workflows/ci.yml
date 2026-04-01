@@ -22,5 +22,8 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements-docker.txt pytest
 
+      - name: Crear modelos mock para tests
+        run: python tests/create_mock_models.py
+
       - name: Ejecutar tests
         run: pytest tests/test_api.py -v

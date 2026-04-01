@@ -38,3 +38,5 @@ reports/
 # Windows
 Thumbs.db
 desktop.ini
+
+notebooks/catboost_info/

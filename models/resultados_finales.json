@@ -1,0 +1,9 @@
+{
+  "modelo": "LightGBM",
+  "auc_pr": 0.7473,
+  "roc_auc": 0.9494,
+  "f1_optimizado": 0.7085,
+  "threshold_optimo": 0.3756,
+  "fraudes_detectados_test": 1965,
+  "falsos_positivos_test": 483
+}

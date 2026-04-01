@@ -1,0 +1,40 @@
+# Datos — nunca subir a GitHub (son varios GB)
+data/
+
+# Modelos entrenados — son archivos grandes
+models/*.joblib
+
+# Sí subir estos archivos de modelos (son pequeños y necesarios)
+!models/resultados_finales.json
+!models/best_params.json
+!models/monitoring_status.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# MLflow — los experimentos son locales
+mlruns/
+
+# Reportes HTML de Evidently — se regeneran automáticamente
+reports/
+
+# Prefect — base de datos local
+.prefect/
+
+# Docker
+.dockerignore
+
+# Windows
+Thumbs.db
+desktop.ini

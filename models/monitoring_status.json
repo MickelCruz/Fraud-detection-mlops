@@ -1,0 +1,9 @@
+{
+  "fecha": "2026-03-30 07:26",
+  "roc_auc": 0.9494,
+  "f1": 0.6944,
+  "umbral_roc_auc": 0.9,
+  "umbral_f1": 0.6,
+  "drift_detectado": false,
+  "reentrenar": false
+}
